@@ -1,0 +1,44 @@
+@fontsize: 12px;
+@fontfamily: 'Arial';
+@prefix: 'prefix';
+@boolean: true !important;
+
+// This is a comment
+.font-mixin(@size: 400px) {
+  @media only screen and (min-width: @size) {
+    font-size: @fontsize;
+    font-family: @fontfamily;
+  }
+}
+
+.mixin (@a) when (lightness(@a) >= 50%) {
+  background-color: black;
+}
+
+loop(@counter) when (@counter > 0) {
+  .loop((@counter - 1));
+  width: (10px * @counter);
+}
+
+.block {
+  .font-mixin(320px);
+  color: white;
+  margin: 20px;
+}
+
+div[role="main"] {
+  margin: 20px;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.1);
+
+  &.no-margin {
+    margin: 0;
+  }
+}
+
+aside[role="complementary"] {
+  width: 300px / 960px * 100%;
+
+  > .block {
+    margin: 0;
+  }
+}

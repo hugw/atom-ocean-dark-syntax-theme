@@ -1,0 +1,46 @@
+$fontsize: 12px
+$fontfamily: 'Arial'
+$prefix: 'prefix'
+$boolean: true !default
+
+// This is a comment
+=font-mixin($size: 400px)
+  @media only screen and (min-width: $size)
+    &.#{$prefix}
+      font-size: $fontsize
+      font-family: $fontfamily
+
+=debug-mixin
+  @debug "$boolean is #{$boolean}"
+
+  @if $boolean
+    display: block
+  @else
+    display: none
+
+  @for $i from 1 through 4
+    .#{$prefix}-#{$i}
+      width: 60px + $i
+
+.block
+  +font-mixin(320px)
+  color: white
+  margin: 20px
+  padding: 20px
+
+div[role="main"]
+  margin: 20px
+  box-shadow: 1px 1px 1px rgba(black, 0.1)
+
+  &.no-margin
+    margin: 0
+
+  .container &
+    border: 1px solid #FFCC00
+
+aside[role="complementary"]
+  width: 300px / 960px * 100%
+  background: darken(#FFFFFF, 10%)
+
+  > .block
+    margin: 0

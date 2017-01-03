@@ -1,0 +1,19 @@
+{
+  "name": "ocean-dark-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "A subtle atom syntax theme based on Base16 Ocean Dark theme for Sublime Text.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "spacegray",
+    "ocean",
+    "dark",
+    "base16"
+  ],
+  "repository": "https://github.com/hugw/atom-ocean-dark-syntax-theme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

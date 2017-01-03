@@ -1,0 +1,54 @@
+/**
+ * Sass styles
+ *
+ * @copyright Copyright (c) 2016, hugw.io
+ * @author Hugo W - me@hugw.io
+ * @license MIT
+ */
+
+.meta.function.include.sass {
+  .keyword.at-rule,
+  .variable.other {
+    color: @color-blue;
+  }
+}
+
+.meta.variable-declaration.sass {
+  .punctuation.definition.entity {
+    color: @color-red;
+  }
+
+  &.mixin {
+    .variable.other,
+    .keyword.at-rule {
+      color: @color-blue;
+    }
+
+    .meta.variable-usage.sass {
+      .punctuation.definition.entity,
+      .variable.other {
+        color: @color-red;
+      }
+    }
+  }
+}
+
+.meta.variable-usage.sass {
+  .punctuation.definition.entity {
+    color: @color-red;
+  }
+}
+
+.meta.attribute-selector.sass {
+  color: @syntax-text-color;
+}
+
+.meta.set.variable.scss {
+  .separator {
+    color: @syntax-text-color;
+  }
+}
+
+.punctuation.interpolation.scss {
+  color: lighten(@color-red, 5%);
+}

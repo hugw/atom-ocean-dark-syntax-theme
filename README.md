@@ -3,20 +3,20 @@
 A subtle atom syntax theme based on Base16 Ocean Dark theme for Sublime Text.
 
 #### Ruby
-<img src="images/ruby.png" width="500">
+![screenshot](https://raw.githubusercontent.com/hugw/atom-ocean-dark-syntax-theme/master/images/ruby.png)
 
 #### Javascript
-<img src="images/js.png" width="500">
-<img src="images/jsx.png" width="500">
-<img src="images/node.png" width="500">
+![screenshot](https://raw.githubusercontent.com/hugw/atom-ocean-dark-syntax-theme/master/images/js.png)
+![screenshot](https://raw.githubusercontent.com/hugw/atom-ocean-dark-syntax-theme/master/images/jsx.png)
+![screenshot](https://raw.githubusercontent.com/hugw/atom-ocean-dark-syntax-theme/master/images/node.png)
 
 #### PHP
-<img src="images/php.png" width="500">
+![screenshot](https://raw.githubusercontent.com/hugw/atom-ocean-dark-syntax-theme/master/images/php.png)
 
 #### SASS
-<img src="images/sass.png" width="500">
+![screenshot](https://raw.githubusercontent.com/hugw/atom-ocean-dark-syntax-theme/master/images/sass.png)
 
 #### LESS
-<img src="images/less.png" width="500">
+![screenshot](https://raw.githubusercontent.com/hugw/atom-ocean-dark-syntax-theme/master/images/less.png)
 
 **Credits** to [Chris Kempson - Base16 Ocean Dark](http://chriskempson.github.io/base16/#ocean)

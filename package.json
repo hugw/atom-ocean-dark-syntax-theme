@@ -1,7 +1,7 @@
 {
   "name": "ocean-dark-syntax",
   "theme": "syntax",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A subtle atom syntax theme based on Base16 Ocean Dark theme for Sublime Text.",
   "keywords": [
     "syntax",

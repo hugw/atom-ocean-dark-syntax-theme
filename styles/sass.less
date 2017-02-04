@@ -6,49 +6,49 @@
  * @license MIT
  */
 
-.meta.function.include.sass {
-  .keyword.at-rule,
-  .variable.other {
+.syntax--meta.syntax--function.syntax--include.syntax--sass {
+  .syntax--keyword.syntax--at-rule,
+  .syntax--variable.syntax--other {
     color: @color-blue;
   }
 }
 
-.meta.variable-declaration.sass {
-  .punctuation.definition.entity {
+.syntax--meta.syntax--variable-declaration.syntax--sass {
+  .syntax--punctuation.syntax--definition.syntax--entity {
     color: @color-red;
   }
 
-  &.mixin {
-    .variable.other,
-    .keyword.at-rule {
+  &.syntax--mixin {
+    .syntax--variable.syntax--other,
+    .syntax--keyword.syntax--at-rule {
       color: @color-blue;
     }
 
-    .meta.variable-usage.sass {
-      .punctuation.definition.entity,
-      .variable.other {
+    .syntax--meta.syntax--variable-usage.syntax--sass {
+      .syntax--punctuation.syntax--definition.syntax--entity,
+      .syntax--variable.syntax--other {
         color: @color-red;
       }
     }
   }
 }
 
-.meta.variable-usage.sass {
-  .punctuation.definition.entity {
+.syntax--meta.syntax--variable-usage.syntax--sass {
+  .syntax--punctuation.syntax--definition.syntax--entity {
     color: @color-red;
   }
 }
 
-.meta.attribute-selector.sass {
+.syntax--meta.syntax--attribute-selector.syntax--sass {
   color: @syntax-text-color;
 }
 
-.meta.set.variable.scss {
-  .separator {
+.syntax--meta.syntax--set.syntax--variable.syntax--scss {
+  .syntax--separator {
     color: @syntax-text-color;
   }
 }
 
-.punctuation.interpolation.scss {
+.syntax--punctuation.syntax--interpolation.syntax--scss {
   color: lighten(@color-red, 5%);
 }

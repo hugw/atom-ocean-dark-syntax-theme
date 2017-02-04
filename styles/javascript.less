@@ -6,40 +6,40 @@
  * @license MIT
  */
 
-.source.js {
-  &.embedded {
+.syntax--source.syntax--js {
+  &.syntax--embedded {
     color: @syntax-text-color;
   }
 }
 
-.constant {
-  &.other.js {
+.syntax--constant {
+  &.syntax--other.syntax--js {
     color: @syntax-text-color;
   }
 }
 
-.variable {
-  &.other.object.js,
-  &.property.js {
+.syntax--variable {
+  &.syntax--other.syntax--object.syntax--js,
+  &.syntax--property.syntax--js {
     color: @syntax-text-color;
   }
 }
 
-.meta {
-  &.import.js,
-  &.export.js {
-    .variable {
+.syntax--meta {
+  &.syntax--import.syntax--js,
+  &.syntax--export.syntax--js {
+    .syntax--variable {
       color: @syntax-text-color;
     }
   }
 }
 
-.entity {
+.syntax--entity {
   // JSX Attrs
-  &.other.attribute-name.js {
+  &.syntax--other.syntax--attribute-name.syntax--js {
     color: @color-blue;
 
-    &.id {
+    &.syntax--id {
       color: @color-blue;
     }
   }
